@@ -15,7 +15,18 @@ gem 'activesupport', '~>4.1'
 gem 'activerecord', '~>4.1'
 
 gem 'rake'
-
+gem 'spotify'
+gem 'rspotify'
+gem 'darksky'
+gem 'bcrypt'
+gem 'typhoeus'
+gem 'omniauth-oauth2'
+gem 'rest-client'
+gem 'ffi'
+gem 'libspotify'
+gem 'performer'
+gem 'dotenv'
+gem 'httparty'
 gem 'shotgun'
 
 group :test do

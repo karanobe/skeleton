@@ -1,0 +1,9 @@
+<form action='https://accounts.spotify.com/api/token' method='post'>
+  <input type='text' name='grant_type' value="authorization_code">
+  <input type='text' name='code' value="<%= @code %>">
+  <input type='text' name='redirect_uri' value='http://localhost:9393/callback'>
+  <input type='text' name='client_id' value="<%= @client_id %>">
+  <input type='text' name='client_secret' value='<%= @client_secret %>'>
+  <input type='submit' value='submit'>
+</form>
+<!-- "BQAzKw1K7a9EvKLk-0u6U8kbsZ6_EJ92fSYzB5NxV8mxB-5X4Ax0VqBp6F3S_2vWrXAMzXRXF3bZRk2cD5WiZ2-NcUrW2FP-rt9Mh2ew2L3dXU1Dbd5_v9_PGxufXf5WcXSQeIRkS7i9tJi0HDr8CeAlzqQCST2ENbVbnm5wBKNyyqMjAjHq82kZXeQIBInndtNThcks" -->

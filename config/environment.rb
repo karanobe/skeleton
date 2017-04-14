@@ -19,6 +19,20 @@ require 'sinatra'
 require "sinatra/reloader" if development?
 
 require 'erb'
+require 'spotify'
+require 'rspotify'
+require 'darksky'
+require 'bcrypt'
+require 'typhoeus'
+require 'omniauth-oauth2'
+require 'rest-client'
+require 'ffi'
+require 'libspotify'
+require 'performer'
+require 'dotenv/load'
+
+
+
 
 # Some helper constants for path-centric logic
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
